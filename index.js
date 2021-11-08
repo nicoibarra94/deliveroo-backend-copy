@@ -16,7 +16,8 @@ app.get("/", (req, res) => {
       ratings: "50+",
       address: "8 Rue de Bretagne, 75003 Paris",
       delay: "10 - 20 Mins (Au plus tôt)",
-      description: "Profitez de chaque plaisir de la vie quotidienne.",
+      description:
+        "Profitez de chaque plaisir de la vie quotidienne. Le Pain Quotidien propose des ingrédients simples et sains, du bon pain, des fruits et des légumes frais et de saison issus de l’agriculture biologique.",
       picture: "https://f.roocdn.com/images/menus/17697/header-image.jpg",
       client_address: {
         coordinates: [2.36051359999999, 48.8737157],
@@ -47,7 +48,7 @@ app.get("/", (req, res) => {
             id: "1519055545-89",
             title: "Brunch vegan",
             description:
-              "Falafels bio, houmous bio, avocat aux super graines bio, lentilles au paprika, herbes fraîches, houmous de carotte et légumes de saison, soupe du jour bio, pain bio & confiture, crunola parfait aux fruits de saison, flûte aux raisins et noisettes, jus de fruits 33cl au choix",
+              "Falafels bio, houmous bio, avocat aux super graines bio, lentilles au paprika, herbes fraîches, houmous de carotte et légumes de saison.",
             price: "25.00",
             picture:
               "https://f.roocdn.com/images/menu_items/3905693/item-image.jpg",
